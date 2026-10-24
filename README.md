@@ -1,24 +1,14 @@
-# Bubble Hound website
+# Bubble Hound — minimal promotional website
 
-A simple responsive landing page for Bubble Hound using the supplied brand palette and mascot.
-
-## Files
-- `index.html`: website content
-- `styles.css`: styling and mobile layout
-- `script.js`: mobile navigation
-- `assets/bubble-hound-mascot.png`: cropped from the supplied Bubble Hound artwork
+A static website based on the supplied single-page HTML design, with QR code replaced by a phone displaying the supplied real app homepage screenshot. No top navigation, Games, map preview or extra sections. CSS-only gently rising Champagne bubbles (disabled for reduced-motion).
 
 ## Preview
-Open `index.html` in a browser. No build tools or dependencies are required.
+Open `index.html` in a browser. No build step or server needed.
+
+## Before publishing
+1. Replace placeholder `href="#"` store links in `index.html` with real Apple App Store and Google Play URLs. Currently visibly labelled Coming soon and disabled.
+2. Replace draft text in `privacy.html` and `terms.html` with reviewed, approved policies.
+3. Verify `support@bubblehound.vip` is the intended contact address.
 
 ## GitHub
-Create a new repository, upload the contents of this folder (not the outer folder), and commit.
-
-## Cloudflare Pages (later)
-Connect the GitHub repository to Cloudflare Pages using a static site setup. Leave the build command blank and use `/` as the output directory. Add `bubblehound.vip` as a custom domain only when ready. Do not change Proton or Resend DNS records.
-
-## Before launch
-- Confirm the wording and the venue-enquiry contact address.
-- Check the mailbox works before relying on the `mailto:` links.
-- Add any necessary privacy/legal information before launching the full service.
-- Replace the mascot crop if a transparent standalone brand asset is available.
+Upload the *contents* of this folder to the root of `luciferstoat/bubblehound.vip` once approved. Nothing has been deployed automatically.
